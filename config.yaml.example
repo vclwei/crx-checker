@@ -1,0 +1,14 @@
+# Telegram configuration
+telegram:
+  bot_token: "YOUR_BOT_TOKEN_HERE"  # Replace with your bot token
+  chat_id: "YOUR_CHAT_ID_HERE"      # Replace with your chat id
+
+# Schedule configuration
+schedule:
+  check_time: "11:00"  # Daily check time (24-hour format)
+  check_days: 3        # Number of days to check for updates
+
+# Extensions to monitor (ID list)
+extensions:
+  - "extension_id_1"  # Replace with actual extension IDs
+  - "extension_id_2" 
